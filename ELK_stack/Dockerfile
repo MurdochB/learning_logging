@@ -1,4 +1,4 @@
 FROM sebp/elk:551
 
 # Add my custom logstash config
-ADD logstash.conf /etc/logstash/conf.d/logstash.conf
+ADD 03-beats-filter.conf /etc/logstash/conf.d/03-beats-filter.conf
